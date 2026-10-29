@@ -1,0 +1,29 @@
+{
+  "name": "local-ai-coding-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "1.0.59",
+    "@ai-sdk/react": "2.0.285",
+    "ai": "5.0.282",
+    "next": "15.5.28",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.28",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.8.3"
+  }
+}
